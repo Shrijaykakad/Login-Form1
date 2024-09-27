@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.login-form{
+  height: 100vh;
+  width: 100%;
+  background-color: #AFD0BF;
+}
+
+.login-form .form{
+  background-color: white;
+  position: absolute;
+  left: 37%;
+  top: 22.5%;
+  height: 55%;
+  width: 24%;
+  border-radius: 5px;
+  box-shadow: 0px 3px 3px #808F87;
+}
+
+.form .top{
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 900;
+  height: 30%;
+  width: 100%;
+  background-color: #808F87;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.top h3{
+  position: relative;
+  top: 34%;
+  text-align: center;
+}
+
+.bottom .id-ps{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  /* border: 1px solid #9CADCE; */
+  color: #808F87;
+}
+
+.id-ps .form-control{
+  color: #808F87;
+  border: 1px solid #808F87;
+}
+
+.id-ps #addon-wrapping{
+  border: 1px solid #808F87;
+  border-right: none;
+}
+
+.bottom .input{
+  margin-top: 15px;
+}
+
+#addon-wrapping{
+  background-color: #808F87;
+}
+
+.for-ps #for-ps{
+  text-decoration: none;
+  color: #808F87;
+  margin-left: 15px;
+}
+
+.bottom .btn-primary{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background-color: #808F87;
+  border: 1px solid #808F87;
+}
+
+.bottom .sign-up{
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.sign-up a{
+  text-decoration: none;
+  color: #808F87;
+}
